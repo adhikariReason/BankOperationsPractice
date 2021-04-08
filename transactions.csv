@@ -1,0 +1,46 @@
+Account,TransID,Date,To/From,Bank Status,Category/Account,Description,Amount
+Checking,12749,1/10/2021,IRS,Cleared,Income - Interest,Covid payment - yay!,1400
+Checking,12761,1/10/2021,Credit Card 2,Cleared,Credit-Credit Card 2,,-600
+Checking,12766,1/10/2021,Credit Card 2,Cleared,Credit-Credit Card 2,,-100
+Checking,12770,1/10/2021,Credit Card 1,Cleared,Credit-Credit Card 1,,-50
+Checking,12772,1/10/2021,Harry and David,UnCleared,Non-income,will go to credit card but not sure which one,-200
+Checking,12777,1/16/2021,Credit Card 1,Cleared,Credit-Credit Card 1,,-100
+Checking,12781,1/18/2021,Mo Dept of Revenue,Cleared,Auto -> Licensing,,-10
+Checking,12790,1/26/2021,National Insurance,Cleared,Auto -> Insurance-Auto,Car 1,-20
+Checking,12790,1/26/2021,National Insurance,Cleared,Auto -> Insurance-Auto,Car 2,-20
+Checking,12790,1/26/2021,National Insurance,Cleared,Auto -> Insurance-Auto,Car 3,-20
+Checking,12790,1/26/2021,National Insurance,Cleared,Auto -> Insurance-Auto,Car 4,-20
+Checking,12790,1/26/2021,National Insurance,Cleared,Auto -> Insurance-Auto,Car 5,-20
+Checking,12790,1/26/2021,National Insurance,Cleared,House-Grounds -> Insurance - Home,to be reimbursed next month,-180
+Checking,12790,1/26/2021,National Insurance,Cleared,House-Grounds -> Insurance - Home,to be reimbursed next month,-10
+Checking,12793,1/26/2021,Credit Card 1,Cleared,Credit-Credit Card 1,,-10
+Checking,12796,1/26/2021,Credit Card 2,Cleared,Credit-Credit Card 2,,-200
+Checking,12799,1/29/2021,FunLife Apartments,Cleared,Rent,,-1000
+Checking,12800,1/29/2021,Evergy,Cleared,Utilities -> Electric,,-40
+Checking,12801,1/29/2021,Auto Transfer,Cleared,Savings-Car,,-300
+Checking,12810,1/29/2021,Mo Dept of Revenue,Cleared,Auto -> Licensing,Title work,-6
+Checking,12817,2/4/2021,Post Office,Cleared,Postage,,-5
+Checking,12819,2/4/2021,City Water,Cleared,Utilities -> Water,last bill,-30
+Checking,12823,2/4/2021,Credit Card 1,Cleared,Credit-Credit Card 1,,-300
+Checking,12827,2/12/2021,Mo Dept of Revenue,Cleared,Auto -> Licensing,,-20
+Checking,12842,2/15/2021,General Life,Cleared,Life Insurance,,-80
+Checking,12871,2/26/2021,FunLife Apartments,Cleared,Rent,,-1000
+Checking,12872,2/26/2021,Evergy,Cleared,Utilities -> Electric,,-70
+Checking,12873,2/26/2021,Auto Transfer,Cleared,Savings-Car,,-300
+Checking,12877,2/26/2021,National Insurance,Cleared,Auto -> Insurance-Auto,Car 1,-20
+Checking,12877,2/26/2021,National Insurance,Cleared,Auto -> Insurance-Auto,Car 2,-20
+Checking,12877,2/26/2021,National Insurance,Cleared,Auto -> Insurance-Auto,Car 3,-20
+Checking,12877,2/26/2021,National Insurance,Cleared,Auto -> Insurance-Auto,Car 4,-20
+Checking,12877,2/26/2021,National Insurance,Cleared,Auto -> Insurance-Auto,Car 5,-20
+Checking,12877,2/26/2021,National Insurance,Cleared,House-Grounds -> Insurance - Home,to be reimbursed next month,-10
+Checking,12882,2/26/2021,Credit Card 1,Cleared,Credit-Credit Card 1,,-2500
+Checking,12885,2/26/2021,Credit Card 2,Cleared,Credit-Credit Card 2,,-400
+Checking,12888,2/26/2021,Credit Card 2,Cleared,Credit-Credit Card 2,,-300
+Checking,12890,3/5/2021,Post Office,Cleared,Postage,,-5
+Checking,12896,3/5/2021,Credit Card 1,Cleared,Credit-Credit Card 1,,-500
+Checking,12902,3/5/2021,Credit Card 2,Cleared,Credit-Credit Card 2,,-200
+Checking,12904,3/9/2021,Credit Card 2,UnCleared,Credit-Credit Card 2,,-400
+Checking,12909,3/11/2021,Mo Dept of Revenue,UnCleared,Auto -> Licensing,,-150
+Checking,12912,3/11/2021,Credit Card 1,Cleared,Credit-Credit Card 1,,-600
+Checking,12916,3/11/2021,General Life,UnCleared,Life Insurance,,-80
+Checking,12919,3/11/2021,Credit Card 2,UnCleared,Credit-Credit Card 2,,-50
