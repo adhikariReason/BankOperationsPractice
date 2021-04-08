@@ -22,7 +22,8 @@ public class TransactionLine {
 
     @Override
     public String toString() {
-        return "category=" + getCategory() + ", desc=" + getDesc() + ", amt=" + getAmt() + '}';
+        return "\n\tCategory: " + this.getCategory() + ", Description: " + 
+                this.getDesc() + ", Amount: " + getAmt();
     }
 
     /**

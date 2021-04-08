@@ -40,7 +40,12 @@ public class Transaction {
 
     @Override
     public String toString() {
-        return "date=" + date + ", toFrom=" + toFrom + ", tranId=" + tranId + ", status=" + status + ", arrLine=" + arrLine ;
+        String lines="";
+        for(TransactionLine a: arrLine){
+            lines+=a.toString();
+        }
+        return  "ID: " + tranId + ", Date: " + date + ", To/From: " + toFrom + 
+                "Transaction Amount: "+this.getAmount()+ ", Lines: " + lines ;
     }
     
 }
