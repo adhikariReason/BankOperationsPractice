@@ -36,12 +36,22 @@ public class Account {
         return 0;
     }
     public float getAccountBalance(){
-        return 0;
+        float sum=0;
+        for(Transaction a: arrTrans){
+            sum+=a.getAmount();
+        }
+            
+        return sum;
     }
 
     @Override
     public String toString() {
-        return "accName=" + accName + ", transactions=" + arrTrans ;
+        String lines="";
+        for(Transaction a: arrTrans){
+            lines+=a.toString();
+        }
+        return  "Account: " + accName+", Balance: "+getAccountBalance()+", Transactions: " + lines;
+   
     }
     
     

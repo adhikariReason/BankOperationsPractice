@@ -32,7 +32,7 @@ public class Transaction {
         
     public float getAmount(){
         float amt=0;
-        for(TransactionLine a: arrLine){
+        for(TransactionLine a: getArrLine()){
             amt+=a.getAmt();
         }
         return amt;     
@@ -41,11 +41,67 @@ public class Transaction {
     @Override
     public String toString() {
         String lines="";
-        for(TransactionLine a: arrLine){
+        for(TransactionLine a: getArrLine()){
             lines+=a.toString();
         }
-        return  "ID: " + tranId + ", Date: " + date + ", To/From: " + toFrom + 
+        return  "\n\tID: " + getTranId() + ", Date: " + getDate() + ", To/From: " + getToFrom() + 
                 "Transaction Amount: "+this.getAmount()+ ", Lines: " + lines ;
+    }
+
+    /**
+     * @return the date
+     */
+    public String getDate() {
+        return date;
+    }
+
+    /**
+     * @param date the date to set
+     */
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    /**
+     * @return the toFrom
+     */
+    public String getToFrom() {
+        return toFrom;
+    }
+
+    /**
+     * @param toFrom the toFrom to set
+     */
+    public void setToFrom(String toFrom) {
+        this.toFrom = toFrom;
+    }
+
+    /**
+     * @return the tranId
+     */
+    public int getTranId() {
+        return tranId;
+    }
+
+    /**
+     * @param tranId the tranId to set
+     */
+    public void setTranId(int tranId) {
+        this.tranId = tranId;
+    }
+
+    /**
+     * @return the arrLine
+     */
+    public ArrayList<TransactionLine> getArrLine() {
+        return arrLine;
+    }
+
+    /**
+     * @param arrLine the arrLine to set
+     */
+    public void setArrLine(ArrayList<TransactionLine> arrLine) {
+        this.arrLine = arrLine;
     }
     
 }
